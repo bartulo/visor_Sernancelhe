@@ -1,0 +1,16 @@
+ENVI
+description = {
+at_3763.bin}
+samples = 1456
+lines   = 1158
+bands   = 1
+header offset = 0
+file type = ENVI Standard
+data type = 4
+interleave = bsq
+byte order = 0
+map info = {Transverse Mercator, 1, 1, 44934.9970121601, 139465.058118348, 5.00123575681666, 5.00123575681666}
+projection info = {3, 6378137, 6356752.314140356, 39.66825833333333, -8.133108333333334, 0, 0, 1, Transverse Mercator}
+coordinate system string = {PROJCS["ETRS89_Portugal_TM06",GEOGCS["GCS_ETRS_1989",DATUM["D_ETRS_1989",SPHEROID["GRS_1980",6378137,298.257222101]],PRIMEM["Greenwich",0],UNIT["Degree",0.017453292519943295]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",39.66825833333333],PARAMETER["central_meridian",-8.133108333333334],PARAMETER["scale_factor",1],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["Meter",1]]}
+band names = {
+Band 1}

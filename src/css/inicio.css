@@ -1,0 +1,11 @@
+body {
+  padding: 30px;
+}
+
+#listado {
+  display: block;
+}
+
+#panel {
+  display: none;
+}
