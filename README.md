@@ -1,4 +1,4 @@
-# PredictFire2Threejs
+# Visor incendio Sernancelhe 2020
 
 Código basado en [The Portuguese Large Wildfire Database](https://zenodo.org/record/7495506#.Y-lMBVQo-Ul)
 
