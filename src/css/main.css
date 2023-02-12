@@ -2,7 +2,104 @@ body {
   margin: 0px;
 }
 
-.downloaded {
-  width: 500px;
-  padding: 20px;
+ul {
+  padding-left: 12px;
+}
+
+* {
+  transition: all .2s ease;
+}
+
+.gold {
+  color: gold;
+}
+
+.extra-info {
+  display: none;
+  line-height: 16px;
+  font-size: 12px;
+	position: absolute;
+  top: 0;
+  left: 70px;
+}
+
+.info:hover .extra-info {
+  display: block;
+}
+
+.info {
+  position: absolute;
+  font-size: 50px;
+  left: 20px;
+  top: 20px;
+  border-radius: 15px;
+  z-index: 10;
+}
+
+.info:hover {
+  background-color: white;
+  padding: 0 0 0 5px;
+  width: 324px;
+  height: 124px;
+  text-align: left !important;
+}
+
+.loading {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index:20;
+}
+
+.lds-ripple {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ripple div {
+  position: absolute;
+  border: 4px solid #fff;
+  opacity: 1;
+  border-radius: 50%;
+  animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+.lds-ripple div:nth-child(2) {
+  animation-delay: -0.5s;
+}
+@keyframes lds-ripple {
+  0% {
+    top: 36px;
+    left: 36px;
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+  4.9% {
+    top: 36px;
+    left: 36px;
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+  5% {
+    top: 36px;
+    left: 36px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+    width: 72px;
+    height: 72px;
+    opacity: 0;
+  }
 }

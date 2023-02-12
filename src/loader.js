@@ -63,6 +63,7 @@ class AssetsLoader {
 
     Promise.all( promises ).then( () => {
       this.app.init();
+      document.querySelector('#spinner').style.display = 'none';
     });
 
   }
