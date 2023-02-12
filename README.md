@@ -30,6 +30,6 @@ Si prefieres puedes ver una [demo](http://iiff3d.com/Sernancelhe/)
 
 #### Para controlar la animación:
 
-Presionar tecla <kbd>S</kbd> para parar la animación
-Presionar tecla <kbd>D</kbd> para reanudar la animación
+Presionar tecla <kbd>S</kbd> para parar la animación 
+Presionar tecla <kbd>D</kbd> para reanudar la animación 
 Presionar tecla <kbd>A</kbd> para empezar la animación desde el principio
